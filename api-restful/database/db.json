@@ -1,0 +1,201 @@
+{
+  "tickets": [
+    {
+      "id": "a403d3a5-49f8-479d-80a5-a571d1ca2e57",
+      "title": "Problema 1",
+      "description": "Ocurrió un error en el sistema",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": "Vanian"
+    },
+    {
+      "id": "e2eabb40-f0ff-464b-a9ca-da0f8e1af34b",
+      "title": "Problema 1",
+      "description": "Ocurrió un error en el sistema",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "9c3dff77-eb4a-4deb-9d11-643c86403f3b",
+      "title": "Problema 4",
+      "description": "Ocurrió un error en el sistema",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "2bc148fd-4d0b-4ab7-aa0f-cece90bd2e8d",
+      "title": "Problema 6",
+      "description": "Ocurrió un error en el sistemaaa",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "3031a175-0757-4480-a53f-1fb087a83dfb",
+      "title": "Problema 67",
+      "description": "Ocurrió un error en el sistemaaa",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "e79c7a81-6df5-481d-a540-3b7fa66303c4",
+      "title": "Problema 8",
+      "description": "Ocurrió un error en el sistemaaa",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "1169380b-0174-4bc4-a332-0e778c12e8a7",
+      "title": "Problema 9",
+      "description": "No funciona nada",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "bdae6919-6a04-4070-870b-cc7e02d40419",
+      "description": "Ocurrió un error en el sistema",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "2620aede-ed18-4016-a8a7-47e224a10760",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    }
+  ],
+  "notifications": [
+    {
+      "id": "b0731f62-7934-4039-8555-0904e60b07da",
+      "type": "email",
+      "message": "Nuevo ticket creado: Problema 1",
+      "status": "pending",
+      "ticketId": "59a5ca23-90fa-4791-8679-8434964d81cb"
+    },
+    {
+      "id": "75538414-dd9c-484d-b04d-84800595545f",
+      "type": "email",
+      "message": "El ticket 59a5ca23-90fa-4791-8679-8434964d81cb fue asignado a Vania",
+      "status": "pending",
+      "ticketId": "59a5ca23-90fa-4791-8679-8434964d81cb"
+    },
+    {
+      "id": "df7bb307-9deb-43e1-a453-efbdebd583af",
+      "type": "push",
+      "message": "El ticket 59a5ca23-90fa-4791-8679-8434964d81cb cambió a asignado",
+      "status": "pending",
+      "ticketId": "59a5ca23-90fa-4791-8679-8434964d81cb"
+    },
+    {
+      "id": "730392c6-480a-4d96-a98f-6d49a5b4a9dc",
+      "type": "email",
+      "message": "Nuevo ticket creado: Problema 1",
+      "status": "pending",
+      "ticketId": "a403d3a5-49f8-479d-80a5-a571d1ca2e57"
+    },
+    {
+      "id": "8b4a1fc8-0dd4-4d0a-80c1-0b239fe12215",
+      "type": "email",
+      "message": "Nuevo ticket creado: Problema 1",
+      "status": "pending",
+      "ticketId": "e2eabb40-f0ff-464b-a9ca-da0f8e1af34b"
+    },
+    {
+      "id": "1b53adf5-8965-4bf7-9464-69d39a0ea8c9",
+      "type": "email",
+      "message": "Nuevo ticket creado: Problema 4",
+      "status": "pending",
+      "ticketId": "9c3dff77-eb4a-4deb-9d11-643c86403f3b"
+    },
+    {
+      "id": "ee541ed4-b293-451a-8dfd-61c5eddbc0f1",
+      "type": "email",
+      "message": "Nuevo ticket creado: Problema 6",
+      "status": "pending",
+      "ticketId": "2bc148fd-4d0b-4ab7-aa0f-cece90bd2e8d"
+    },
+    {
+      "id": "b572bd78-3c7e-4fba-9f04-676e889cf531",
+      "type": "email",
+      "message": "Nuevo ticket creado: Problema 67",
+      "status": "pending",
+      "ticketId": "3031a175-0757-4480-a53f-1fb087a83dfb"
+    },
+    {
+      "id": "4459cda8-55f2-4de9-833a-f7231323a37d",
+      "type": "email",
+      "message": "Nuevo ticket creado: Problema 8",
+      "status": "pending",
+      "ticketId": "e79c7a81-6df5-481d-a540-3b7fa66303c4"
+    },
+    {
+      "id": "099dcaef-0b2f-47ce-98b7-24ae9701e1aa",
+      "type": "email",
+      "message": "Nuevo ticket creado: Problema 9",
+      "status": "pending",
+      "ticketId": "1169380b-0174-4bc4-a332-0e778c12e8a7"
+    },
+    {
+      "id": "7dbe19ad-fbe1-438e-a03f-458d98c1a4e1",
+      "type": "email",
+      "message": "El ticket a403d3a5-49f8-479d-80a5-a571d1ca2e57 fue asignado a Vania",
+      "status": "pending",
+      "ticketId": "a403d3a5-49f8-479d-80a5-a571d1ca2e57"
+    },
+    {
+      "id": "c252452b-e29e-4c2c-9b9d-ad6e54233332",
+      "type": "email",
+      "message": "El ticket a403d3a5-49f8-479d-80a5-a571d1ca2e57 fue asignado a Adrian",
+      "status": "pending",
+      "ticketId": "a403d3a5-49f8-479d-80a5-a571d1ca2e57"
+    },
+    {
+      "id": "06f28798-4247-448c-9623-600ca8cc170d",
+      "type": "email",
+      "message": "El ticket a403d3a5-49f8-479d-80a5-a571d1ca2e57 fue asignado a Vanian",
+      "status": "pending",
+      "ticketId": "a403d3a5-49f8-479d-80a5-a571d1ca2e57"
+    },
+    {
+      "id": "a38ce689-0a16-4d8a-aff7-ab98e64a0c0d",
+      "type": "email",
+      "message": "El ticket a403d3a5-49f8-479d-80a5-a571d1ca2e57 fue asignado a Vanian",
+      "status": "pending",
+      "ticketId": "a403d3a5-49f8-479d-80a5-a571d1ca2e57"
+    },
+    {
+      "id": "beb23714-bf33-45e6-9867-9ffd8798ffd4",
+      "type": "email",
+      "message": "El ticket a403d3a5-49f8-479d-80a5-a571d1ca2e57 fue asignado a Vanian",
+      "status": "pending",
+      "ticketId": "a403d3a5-49f8-479d-80a5-a571d1ca2e57"
+    },
+    {
+      "id": "642c5456-1727-40c8-896e-5f840f8873ea",
+      "type": "email",
+      "message": "El ticket a403d3a5-49f8-479d-80a5-a571d1ca2e57 fue asignado a Vanian",
+      "status": "pending",
+      "ticketId": "a403d3a5-49f8-479d-80a5-a571d1ca2e57"
+    },
+    {
+      "id": "5ebe2fe6-bb63-4765-9dee-2b99bd41aecb",
+      "type": "email",
+      "message": "Nuevo ticket creado: undefined",
+      "status": "pending",
+      "ticketId": "bdae6919-6a04-4070-870b-cc7e02d40419"
+    },
+    {
+      "id": "a849abd7-c0bf-448c-8c7b-73a4dc491370",
+      "type": "email",
+      "message": "Nuevo ticket creado: undefined",
+      "status": "pending",
+      "ticketId": "2620aede-ed18-4016-a8a7-47e224a10760"
+    }
+  ]
+}
