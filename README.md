@@ -35,8 +35,8 @@ Este proyecto implementa un sistema completo de gestión de tickets que permite 
 
 1. **Clonar el repositorio**
    ```bash
-   git clone <url-del-repositorio>
-   cd semana05_DAWA/api-restful
+   git clone https://github.com/Vania-0731/semana05_DAWA.git
+   cd semana05_DAWA.git
    ```
 
 2. **Instalar dependencias**
@@ -224,41 +224,6 @@ api-restful/
    - Método: `GET`
    - URL: `http://localhost:3000/tickets/{ticket-id}/notifications`
 
-## ⚙️ Configuración Avanzada
-
-### Estados de Tickets Válidos
-- `nuevo` - Ticket recién creado
-- `asignado` - Ticket asignado a un usuario
-- `en_progreso` - Ticket siendo trabajado
-- `resuelto` - Ticket completado
-- `cerrado` - Ticket finalizado
-
-### Prioridades Válidas
-- `low` - Baja prioridad
-- `medium` - Prioridad media (por defecto)
-- `high` - Alta prioridad
-- `urgent` - Prioridad urgente
-
-### Tipos de Notificaciones
-- `email` - Notificación por correo electrónico
-- `push` - Notificación push
-
-## 🐛 Solución de Problemas
-
-### Error: "Cannot find module"
-```bash
-# Reinstalar dependencias
-rm -rf node_modules package-lock.json
-npm install
-```
-
-### Error: "Port already in use"
-```bash
-# Cambiar el puerto en app.js o matar el proceso
-# En Windows:
-netstat -ano | findstr :3000
-taskkill /PID <PID> /F
-```
 
 ### Error de validación
 - Verificar que el título tenga al menos 3 caracteres
@@ -267,10 +232,8 @@ taskkill /PID <PID> /F
 
 ## 📝 Notas de Desarrollo
 
-- El sistema utiliza un archivo JSON como base de datos para simplicidad
+- El sistema utiliza un archivo JSON como base de datos
 - Las notificaciones se crean automáticamente al realizar acciones en los tickets
-- El sistema incluye validaciones robustas para prevenir datos inválidos
-- La paginación mejora el rendimiento con grandes volúmenes de datos
 
 ## 🤝 Contribución
 
@@ -279,11 +242,3 @@ taskkill /PID <PID> /F
 3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abrir un Pull Request
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia ISC.
-
----
-
-**Desarrollado con ❤️ para el curso de Desarrollo de Aplicaciones Web Avanzadas**
